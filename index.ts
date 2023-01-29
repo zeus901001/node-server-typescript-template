@@ -7,7 +7,7 @@ import authRoutes from './routes/auth'
 import apiRoutes from './routes/api'
 import { SERVER_URI, SERVER_PORT, MONGO_URI, MONGO_PORT, MONGO_NAME } from './config'
 
-const app: express.Application = express()
+const app = express()
 
 /**
  * Config an express app.
